@@ -2,8 +2,8 @@ public class ReverseDigits {
     public void arrangeStack(Stack<Integer> original) {
 
             // Please write your code after this line
-        Stack<Integer> even;
-        Stack<Integer> odd;
+        Stack<Integer> even = new Stack<Integer>();
+        Stack<Integer> odd = new Stack<Integer>();
         while (!original.empty()) {
             int n = original.pop();
             if (n % 2 == 0) {
